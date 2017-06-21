@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.preference.PreferenceCategory
+
+        />
+
+    <android.support.v7.preference.PreferenceCategory
+        android:title="基本设置"
+        >
+        <android.support.v7.preference.CheckBoxPreference
+            android:title="显示例句"
+            android:key="sample"
+            android:defaultValue="true"
+            />
+        <android.support.v7.preference.CheckBoxPreference
+            android:title="更换主题"
+            android:key="theme"
+            android:defaultValue="false"
+            />
+    </android.support.v7.preference.PreferenceCategory>
+
+    <android.support.v7.preference.Preference
+        android:title="GitHub源码"
+        android:key="source"
+        android:summary="http"
+
+        />
+
+    <android.support.v7.preference.PreferenceCategory
+        android:title="关于"
+        >
+        <android.support.v7.preference.Preference
+            android:title="version:1.2.1"
+            />
+
+
+    </android.support.v7.preference.PreferenceCategory>
+
+
+
+
+</PreferenceScreen>

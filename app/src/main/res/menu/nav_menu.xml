@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_translate"
+            android:title="翻译"
+            android:icon="@drawable/ic_translate_black_24dp"
+            ></item>
+        <item
+            android:id="@+id/nav_daily"
+            android:title="每日一句"
+            android:icon="@drawable/ic_content_paste_black_24dp"></item>
+        <item
+            android:id="@+id/nav_notebook"
+            android:title="笔记本"
+            android:icon="@drawable/ic_book_black_24dp"></item>
+        <item
+            android:id="@+id/nav_setting"
+            android:title="设置"
+            android:icon="@drawable/ic_settings_black_24dp"
+            ></item>
+
+
+    </group>
+
+
+
+</menu>
